@@ -1,0 +1,34 @@
+<html>
+    <title> Welcome</title>
+    <link href="../CSS/welcom.css" type="Text/css" rel="stylesheet">
+</html>
+<body>
+     <div class="container">
+        <div id="Nav">
+                <div class="logo"> 
+                    <a href="index.html"><img src="../PICS/logo.png"></a>
+                </div>
+                <ul class="navlist">
+                    <li> <a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li> <a href="#">RESOURCE</a>
+                        <ul class="dropdown">
+                            <li> <a href="../HTML/media.html"> MEDIA</a></li>
+                            <li><a href="../HTML/cv.html"> CV</a>  </li>
+                            <li><a href="#"> FORM</a> </li>
+                        </ul>
+                    </li>
+                    <li><a href="../HTML/contact.html"> CONTACT</a> </li>
+                </ul>
+        </div>
+    </div>
+    <h1> Welcome To Our Website</h1>
+     <div id="welcome"></div>
+     <script>
+        const urlparams = new URLSearchParams(window.location.search);
+        const username = urlparams.get("Name");
+        const age = urlparams.get("Age");
+        document.getElementById("welcome").innerHTML = `You Are Welcome ${username}. You Are ${age} years Old.`;
+
+     </script>
+</body>

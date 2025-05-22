@@ -1,0 +1,295 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#nav {
+    border:  2px bisque solid; 
+    background-color: aqua;
+    border-radius: 15px;
+    width: 100%;
+    height: 15%;
+}
+.logo {
+    width: 10%;
+    height: 10%;
+    display: inline-block;
+    
+}
+.navlist {
+    width: 80%;
+    height: 70%;
+    display: inline-block;
+    margin-left: 20px;
+    text-align: right;
+}
+li {
+    list-style: none;
+    display: inline-block;
+    position: relative;   
+}
+
+.dropdown li {
+    display: block;
+}
+.dropdown {
+    width: 100% ;
+    background-color: aqua;
+    position: absolute;
+    display: none;
+}
+a {
+    text-decoration: none;
+    padding: 20px 25px;
+    display: block;
+    text-align: center;
+}
+li a:hover {
+    background-color: cadetblue;
+}
+
+li:hover .dropdown {
+    display: block;
+}
+
+.container {
+    width: 100%;
+}
+.maincontainer {
+    height: 1400px;
+    border: solid green 5px;
+    width: 100%;
+}
+
+.sub-container {
+    display: flex;
+    width: 80%;
+    height: 1000px;
+    border: solid red 2px;
+    margin: auto;
+    margin-top: 70px;
+}
+a:visited {
+    color: crimson;
+}
+.box {
+    width: 65%;
+    height: 100%;
+    background-color: cornsilk;
+    margin-left: 30px;
+    border-left-style: solid;
+    padding-left: 20px;
+    
+}
+.box p {
+    color: black;
+    font-size: large;
+}
+.box1 {
+    width: 25%;
+    height: 100%;
+    background-color: black;
+    text-align: center;
+}
+.box1 li {
+    font-size: medium;
+    text-align: center;
+    line-height: 1.6em;
+}
+#header {
+    list-style: none;
+    background-color: white;
+    margin-bottom: 40px;
+}
+#color {
+    display: inline;
+    font-size: xx-large;
+    font-weight: bolder;
+    color: black;
+}
+#graphic {
+    font-size: small;
+    font-weight: bold;
+    background-color: gray;
+    margin-bottom: 5px;
+}
+#footer {
+    font-size: large;
+}
+header,li{
+    font-size:small;
+}
+h1,h2,h3 {
+    font-size: larger;
+    color: white;
+    margin-bottom: 20px;
+    text-align: center;
+    
+}
+h4,h5 {
+    font-size: larger;
+    color: black;
+    margin-bottom: 10px;
+}
+.box strong {
+    color: black;
+
+}
+.box1.strong {
+    border: solid brown 5px;
+    margin-right: 10px;
+}
+ strong {
+    font-size: medium;
+    color: white;
+}
+span {
+    color: black;
+    margin-inline: 300px;  
+    font-weight: bold;
+}
+i {
+    color: black;
+    margin: 10px;
+}
+p {
+    color: white;
+    font-size: large;
+    margin: 10px;
+    margin-bottom: 10px;
+}
+b {
+    color: gold;
+    font-size: xx-large;
+}
+
+li {
+    list-style: none;
+    color: white;
+    font-style: normal;
+    font-size: large;
+}
+.photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 130px 120px 120px 10px;
+    border: solid white 5px;
+}
+.profile-image {
+    text-align: center;
+    background:linear-gradient( 145deg , gold 50%, black 30% );
+    color: white;
+    height: 200px;
+    width: 100%;
+    margin-bottom: 20px;
+    border: solid green 3px;
+}
+.left-div {
+    width: 100%;
+    height: 100%;
+}
+.list {
+    display: inline-block;
+}
+.progress1 {
+    height: 30px;
+    width: 300px;
+    position: relative;
+    top: 5px;
+}
+.progress2{
+    height: 30px;
+    width: 300px;
+    position: relative;
+    top: 5px;
+}
+.progress3 {
+    height: 30px;
+    width: 300px;
+    position: relative;
+    top: 5px;
+}
+.progress4 {
+    height: 30px;
+    width: 300px;
+    position: relative;
+    top: 5px;
+
+}
+.progress5 {
+    height: 30px;
+    width: 300px;
+    position: relative;
+    top: 5px;
+
+}
+.firsthalf {
+    height: 30%;
+    width: 60%;
+    display: inline-block;
+    background-color: gold;
+}
+.secondhalf {
+    height: 30%;
+    width: 30%;
+    display: inline-block;
+    background-color: gray;
+}
+.thalf {
+     height: 30%;
+     width: 50%;
+      display: inline-block;
+      background-color: gold;
+         
+}
+.dhalf{
+    height: 30%;
+    width: 40%;
+    display: inline-block;
+    background-color: gray;
+}
+.mfirst {
+    height: 30%;
+    width: 70%;
+    display: inline-block;
+    background-color: gold;
+}
+.msecond {
+    height: 30%;
+    width: 20%;
+    display: inline-block;
+    background-color: gray;
+}
+.pfirst {
+    height: 30%;
+    width: 70%;
+    display: inline-block;
+    background-color: gold;
+}
+.psecond {
+    height: 30%;
+    width: 20%;
+    display: inline-block;
+    background-color: gray;
+}
+.hfirst {
+    height: 30%;
+    width: 60%;
+    display: inline-block;
+    background-color: gold;
+}
+.csecond {
+    height: 30%;
+    width: 30%;
+    display: inline-block;
+    background-color:gray;
+}
+
+.adobe {
+    width: 100%;
+    height: 150px;
+    display: inline-block;
+    margin: auto;
+    padding: 10px;
+}
+
