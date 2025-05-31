@@ -60,7 +60,6 @@ li:hover .dropdown {
     border: solid green 5px;
     width: 100%;
 }
-
 .sub-container {
     display: flex;
     width: 80%;
