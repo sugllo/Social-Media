@@ -1,0 +1,127 @@
+.maincontainer {
+    border: solid 3px green;
+    height: 100%;
+    display: flex;
+
+}
+.sub-container {
+    border: solid 3px black;
+    height: 80%;
+    width: 40%;
+    display: flex;
+    margin-left: 20px;
+    position: relative;
+}
+.book {
+    border: solid 2px yellow;
+    height: 20%;
+    color: rgba(0, 132, 255, 0.986);
+    font-size: 80px;
+    font-weight: lighter;
+    text-align: center;
+    position: relative;
+    top: 150px;
+}
+.connect {
+    border: solid 3px green;
+    height: 20%;
+    font-size: xx-large;
+    position: relative;
+    top: 150px;
+}
+.subtwo {
+    border: solid 3px black;
+    height: 90%;
+    width: 55%;
+    display: flex;
+    margin-left: 20px;
+    
+}
+.mail {
+    height: 13%;
+    width: 500px;
+    position: relative;
+    left: 200px;
+}
+.smail {
+    height: 60%;
+    width: 450px;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+::placeholder {
+    width: 400px;
+    font-weight: lighter;
+    font-size: large;
+}
+.pass {
+    height: 15%;
+    width: 500px;
+    position: relative;
+    left: 200px;
+}
+.sword {
+    height: 60%;
+    width: 450px;
+    border-radius: 5px;
+    margin-top: 20px;
+
+}
+.in {
+    height: 15%;
+    width: 400px;
+    position: relative;
+    left: 200px;
+    
+}
+.log {
+    height: 60%;
+    width: 450px; 
+    color: white;
+    border-radius: 5px;
+    font-size: large;
+    cursor: pointer;
+    background-color: rgb(0, 132, 255);
+    margin-bottom: auto;
+    
+}
+.p  {
+    border: solid 1px gainsboro;
+    height: 7%;
+    width: 400px;
+    border-left: hidden;
+    border-top: hidden;
+    border-right: hidden;
+    text-align: center;
+    margin-left: 200px;
+    font-size: large;
+    cursor: pointer;
+    position: relative;
+    margin-bottom: 25px;
+}
+.p a {
+    cursor: pointer;
+    text-decoration: wavy;
+}
+p {
+    margin-left: 40%;
+    font-family: serif;
+    font-size: large;
+}
+
+.foget {
+    border: solid brown 3px;
+    height: 10%;
+    width: 200px;
+    color: white;
+    border-radius: 5px;
+    background-color: rgba(81, 205, 50, 0.986);
+    position: relative;
+    left: 300px;
+}
+.get {
+    font-size: x-large;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 5px;
+}
